@@ -1,0 +1,107 @@
+source 'https://rubygems.org'
+
+ruby '2.3.0'
+
+gem 'rails', '4.2.3'
+
+gem 'pg', '~> 0.18.3'
+gem 'sass-rails', '~> 5.0'
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails', '~> 4.1.0'
+gem 'therubyracer', '~> 0.12.2', platforms: :ruby
+gem 'jquery-rails', '~> 4.0.5'
+gem 'jbuilder', '~> 2.0'
+gem 'sdoc', '~> 0.4.0', group: :doc
+
+group :development, :test do
+  gem 'byebug', '~> 6.0.2'
+  gem 'pry', '~> 0.10.4'
+  gem 'pry-remote', '~> 0.1.8'
+  gem 'pry-nav', '~> 0.2.4'
+  gem 'web-console', '~> 2.0'
+  gem 'spring', '~> 1.4.0'
+  gem 'letter_opener', '~> 1.4.1'
+  gem 'mailcatcher', '~> 0.6.1'
+  gem 'bullet', '~> 4.14.10'
+  gem 'foreman', '~> 0.78.0'
+  gem 'seed_dump', '~> 3.2.4'
+  gem 'binding_of_caller', '~> 0.7.2'
+  gem 'better_errors', '~> 2.1.1'
+  gem 'rspec-rails', '~> 3.5.1'
+  gem 'factory_girl_rails', '~> 4.5.0'
+  gem 'capybara', '~> 2.5.0'
+  gem 'ffaker', '~> 2.1.0'
+  gem 'database_cleaner', '~> 1.5.1'
+  gem 'quiet_assets', '~> 1.1.0'
+  gem 'capistrano', '~> 3.1'
+  gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano-bundler', '~> 1.1.2'
+  gem 'capistrano-rvm', '~> 0.1.2'
+  gem 'capistrano3-puma', '~> 1.2.1'
+  gem 'capistrano3-delayed-job', '~> 1.0'
+  gem 'rails-erd', '~> 1.4.4'
+end
+
+gem 'rails_12factor', '~> 0.0.3', group: :production
+gem 'select2-rails', '~> 4.0.3'
+gem 'pundit', '~> 1.1.0'
+gem 'devise', '~> 3.5.1'
+gem 'devise_invitable', '~> 1.6.0'
+gem 'rolify', '~> 5.1.0'
+gem 'cancancan', '~> 1.15.0'
+gem 'activeadmin', '~> 1.0.0.pre2'
+gem 'active_admin_datetimepicker', '~> 0.3.0'
+gem 'activeadmin-select2', github: 'mfairburn/activeadmin-select2'
+gem 'active_skin', '~> 0.0.12'
+gem 'activeadmin_addons', '~> 0.2.7'
+gem 'friendly_id', '~> 5.1.0'
+gem 'puma', '~> 2.14.0'
+gem 'thin', '~> 1.5.1'
+gem 'figaro', '~> 1.1.1'
+gem 'exception_notification', '~> 4.1.1'
+gem 'newrelic_rpm', '~> 3.14.1'
+gem 'delayed_job_active_record', '~> 4.1.0'
+gem 'daemons', '~> 1.2.3'
+gem 'whenever', '~> 0.9.4', require: false
+gem 'paper_trail', '~> 4.0.1'
+gem 'nilify_blanks', '~> 1.2.1'
+gem 'auto_strip_attributes', '~> 2.1.0'
+gem 'will_paginate', '~> 3.0.7'
+gem 'mini_magick', '~> 4.3.6'
+gem 'rmagick', '~> 2.15'
+gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
+gem 'ckeditor', '~> 4.1.6'
+gem 'google-analytics-rails', '~> 1.0.0'
+gem 'paranoia', '~> 2.1.5'
+gem 'best_in_place', '~> 3.1.0'
+gem 'sidekiq', '~> 4.1.4'
+gem 'sinatra', '~> 1.4.7', require: false
+gem 'mobile_detect', '~> 0.0.3'
+gem 'remotipart', '~> 1.2.1'
+gem 'haml', '~> 4.0.7'
+gem 'nested_form', '~> 0.3.2'
+gem 'country_select', '~> 2.5.2'
+gem 'closure_tree', '~> 6.1.0'
+gem 'roo', '~> 2.4.0'
+gem 'city-state', '~> 0.0.13'
+gem 'activemerchant', '~> 1.60.0'
+# Generating Doc
+gem 'caracal', '1.0.8'
+gem 'caracal-rails', '1.0.1'
+# Generating Xlsx
+gem 'rubyzip', '~> 1.1.0'
+gem 'zip-zip', '0.3'
+gem 'axlsx', '2.1.0.pre'
+gem 'axlsx_rails', '0.1.5'
+# Genrating Pdf
+gem 'wicked_pdf', '~> 1.0.3'
+gem 'wkhtmltopdf-binary', '~> 0.9.9'
+gem 'prawn', '2.1.0'
+gem 'prawn-table', '0.2.2'
+# Publish Live Notifications
+gem 'faye', '1.2.2'
+gem 'private_pub', '1.0.3'
+# S3 Bucket support
+gem "fog-aws"
+
+#gem "rack-timeout-puma"
